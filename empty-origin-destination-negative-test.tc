@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>going forward without entering to and from areas scenario negative test case</description>
-   <name>empty-origin-destination-negative-test</name>
-   <tag>FromToNegative</tag>
-   <comment></comment>
-   <testCaseGuid>1c04d053-7c3c-432f-9626-52a2f77439c8</testCaseGuid>
-</TestCaseEntity>
