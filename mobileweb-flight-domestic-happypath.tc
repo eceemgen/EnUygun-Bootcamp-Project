@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>process of mobile reservation for a domestic flight</description>
-   <name>mobileweb-flight-domestic-happypath</name>
-   <tag>mobile</tag>
-   <comment></comment>
-   <testCaseGuid>80fbac4b-df52-49e2-ae93-07e38321d682</testCaseGuid>
-</TestCaseEntity>
