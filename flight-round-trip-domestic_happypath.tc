@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>test untill domestic go and comeback reservation</description>
-   <name>flight-round-trip-domestic_happypath</name>
-   <tag>go-comeback-reservation</tag>
-   <comment></comment>
-   <testCaseGuid>968dbc49-41a3-45cc-b1c9-7120fb9f878a</testCaseGuid>
-</TestCaseEntity>
