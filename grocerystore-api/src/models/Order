@@ -1,0 +1,29 @@
+import { Schema, Types, model } from 'mongoose';
+
+const OrderSchema = new Schema(
+    {
+        userId: Types.ObjectId,
+        cartData: {
+            total: Number,
+            itemsQuantity: Number,
+            itemsOrdered: [
+                new Schema(
+                    {
+                        id: Number,
+                        thumbnail: String,
+                        name: String,
+                        price: Number,
+                        quantity: Number,
+                        stock: Number
+                    },
+                    { _id: false }
+                )
+            ]
+        }
+    },
+    {
+        timestamps: { createdAt: true, updatedAt: false }
+    }
+);
+
+export default model('Order', OrderSchema);

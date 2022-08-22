@@ -1,0 +1,18 @@
+import { connect } from 'mongoose';
+import dotenv from 'dotenv';
+
+dotenv.config();
+
+const username = process.env.DB_USERNAME;
+const password = process.env.DB_PASSWORD;
+
+export default async function database() {
+    try {
+        await connect(
+            `mongodb+srv://${username}:${password}@cluster0.neibga0.mongodb.net/?retryWrites=true&w=majority`
+        );
+        console.log('Connected to MongoDB Atlas');
+    } catch (error) {
+        console.log(error);
+    }
+}
